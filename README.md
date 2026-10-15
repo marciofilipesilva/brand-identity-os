@@ -1,36 +1,63 @@
-# Brand Illustration OS
+# Brand Identity OS
 
-O **Brand Illustration OS** é um sistema de skills para definir, produzir e rever ilustração de marca de forma coerente, original e rastreável.
+A system of Codex skills for guiding brand identity projects from context consolidation through strategy, creative direction, identity systems, illustration, review, and final documentation.
 
-## Skills
+## Operating principles
 
-| Skill | Função | Quando usar |
+- Ground decisions in accessible evidence.
+- Distinguish facts, interpretations, hypotheses, and gaps; do not invent missing information.
+- Require explicit approval between phases.
+- Do not browse the web, install dependencies, or produce visuals without explicit user authorization.
+
+Each skill has its own scope, prerequisites, and limits. Using a skill or approving its output does not automatically authorize the next phase.
+
+## Skills by phase
+
+| Phase | Skill | Purpose |
 | --- | --- | --- |
-| `brand-brief` | Estrutura o briefing, clarifica objetivos e propõe territórios visuais para validação. | No início de uma identidade visual, direção de arte ou sistema de ilustração, antes da exploração criativa. |
-| `website-reference-audit` | Analisa referências públicas e transforma observações em princípios gerais, sem as copiar. | Quando um website, uma marca ou outra referência visual deve informar o projeto. |
-| `illustration-system` | Converte a direção aprovada numa gramática visual original, coerente e reutilizável. | Depois de existir um briefing aprovado e, quando aplicável, uma auditoria de referências. |
-| `illustration-production` | Transforma o sistema aprovado num plano de produção para uma peça concreta e, mediante pedido explícito, permite avançar para a geração. | Depois da aprovação explícita do sistema de ilustração e com uma peça e requisitos definidos. |
-| `illustration-review` | Avalia a peça face ao sistema e ao plano aprovados e devolve correções objetivas. | Quando existe uma ilustração produzida, acompanhada pelo sistema e pelo plano de produção aprovados. |
+| Foundation | `brand-context` | Consolidate confirmed facts, approved decisions, evidence, constraints, gaps, and project status. |
+| | `brand-diagnosis` | Assess an existing brand and identify what to preserve, evolve, correct, or rebuild. |
+| | `brand-research` | Plan and synthesize research on category, competitors, audiences, cultural context, and opportunities. |
+| Strategy | `brand-strategy` | Turn approved inputs into a traceable strategy proposal with explicit choices and approval criteria. |
+| | `brand-verbal-system` | Define narrative, messages, voice, tone, and language principles from an approved strategy. |
+| Identity | `creative-direction` | Propose and compare distinct creative directions grounded in approved context and strategy. |
+| | `visual-identity-system` | Define visual principles, components, relationships, and application criteria from an approved direction. |
+| | `logo-system` | Define, assess, or consolidate logo roles, variants, relationships, usage rules, and validation criteria. |
+| Illustration | `brand-brief` | Structure a brief for visual identity, art direction, or an illustration system. |
+| | `website-reference-audit` | Extract useful principles from accessible public references without copying them. |
+| | `illustration-system` | Define an original, reusable illustration system from an approved brief. |
+| | `illustration-production` | Plan a specific piece from an approved illustration system; generate images only on explicit request. |
+| | `illustration-review` | Review illustrations against the approved system and production plan, with concrete correction instructions. |
+| Quality and documentation | `brand-guidelines` | Consolidate approved brand decisions into traceable, usable guidelines. |
+| | `brand-review` | Review brand materials against approved strategy, systems, and applicable guidelines; route corrections. |
 
-## Fluxo de trabalho
+## Workflow
 
-`brand-brief` → `website-reference-audit` → `illustration-system` → `illustration-production` → `illustration-review`
+### New brand
 
-A revisão não encerra necessariamente o processo. A skill `illustration-review` devolve instruções concretas de correção — incluindo prioridades, elementos a preservar, exclusões e critérios de validação — que servem de brief para uma nova iteração de `illustration-production`.
+`brand-context` → `brand-research` (when needed) → `brand-strategy` →
+`brand-verbal-system` (when needed) → `creative-direction` → `visual-identity-system` →
+`logo-system` and/or `illustration-system` → production → `brand-review` → `brand-guidelines`
 
-## Regras de uso
+### Existing brand
 
-- Distinguir sempre factos, interpretações e hipóteses; não apresentar inferências como certezas.
-- Extrair princípios das referências sem copiar estilos, ilustrações, layouts, marcas ou combinações distintivas.
-- Não gerar imagens antes de existir aprovação explícita do sistema e um pedido explícito de geração.
-- Não instalar dependências nem alterar ficheiros sem autorização do utilizador.
+`brand-context` → `brand-diagnosis` → `brand-research` (when needed) → `brand-strategy` →
+`brand-verbal-system` (when needed) → `creative-direction` → `visual-identity-system` →
+`logo-system` and/or `illustration-system` → production → `brand-review` → `brand-guidelines`
 
-## Exemplo no Codex
+### Illustration track
 
-```text
-$brand-brief Ajuda-me a estruturar o briefing para um sistema de ilustração de uma marca de mobilidade urbana.
-```
+When illustration is part of either workflow, follow this track:
 
-## Estado atual
+`brand-brief` → `website-reference-audit` (when needed) → `illustration-system` →
+`illustration-production` → `illustration-review`
 
-Esta é a primeira versão do Brand Illustration OS, composta por cinco skills.
+The approved brief informs the illustration system; production planning and review use the approved system. Image generation requires an explicit request.
+
+Production requires separate authorization and must respect the approved systems. System definition skills do not produce final visual assets.
+
+## Getting started
+
+Every project starts with `brand-context`. Provide the brand name, project type (new brand, evolution, or rebranding), objectives, available materials, known decisions, and constraints, and record any gaps.
+
+For an existing brand, `brand-diagnosis` is required before making intervention decisions. No later phase starts without explicit approval of the relevant prior output.
